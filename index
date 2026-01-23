@@ -1,1 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plan de Vuelo · Cessna 402 | Alfa Sky</title>
+
+  <style>
+    :root{
+      --bg:#0b1220;
+      --text:#e9eefc;
+      --muted:#a8b3d6;
+      --line:rgba(255,255,255,.12);
+      --accent:#6ea8fe;
+      --accent2:#7ee2ff;
+      --radius:16px;
+      --shadow:0 10px 28px rgba(0,0,0,.35);
+      --card:rgba(255,255,255,.04);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.5;
+    }
+    .cover img{width:100%;height:auto;display:block}
+    .container{max-width:1100px;margin:0 auto;padding:clamp(18px,4vw,40px)}
+    h1{font-size:clamp(28px,6vw,44px);font-weight:900;margin-bottom:6px}
+    h2{font-size:clamp(18px,3.5vw,24px);font-weight:700;color:var(--accent2);margin-bottom:16px}
+    h3{font-size:22px;margin:30px 0 14px;color:var(--accent2)}
+    p{color:var(--muted);margin-bottom:12px;max-width:920px}
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:20px;
+      box-shadow:var(--shadow);
+      margin-bottom:18px;
+    }
+    .kpi{
+      border-left:3px solid var(--accent2);
+      padding-left:12px;
+      margin-bottom:10px;
+    }
+    .route{
+      border:1px solid var(--line);
+      border-radius:12px;
+      padding:12px;
+      margin-bottom:10px;
+      background:rgba(15,26,51,.45);
+    }
+    .route b{display:block}
+    .route span{font-size:13px;color:var(--muted)}
+    ul{margin:0;padding-left:18px;color:var(--muted)}
+    ul li{margin-bottom:8px}
+    footer{
+      background:#060b16;
+      padding:26px 18px;
+      border-top:1px solid var(--line);
+      margin-top:30px;
+    }
+    .footer-inner{
+      max-width:1100px;
+      margin:auto;
+      display:flex;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap:16px;
+    }
+    footer p{color:var(--muted);font-size:14px;margin:0}
+  </style>
+</head>
+
+<body>
+
+  <!-- PORTADA -->
+  <section class="cover">
+    <img 
+      src="https://raw.githubusercontent.com/Alfaskyair/index1/main/CEssna402.png"
+      alt="Plan de Vuelo Cessna 402 - Alfa Sky"
+    />
+  </section>
+
+  <main class="container">
+
+    <h1>Plan de Vuelo</h1>
+    <h2>Cessna 402</h2>
+
+    <p>
+      Plan integral para la afectación de una aeronave Cessna 402 a una operación aeromédica,
+      ejecutiva e industrial, bajo una estructura aerocomercial certificada, con base en Venado Tuerto
+      y un esquema de utilización intensiva de 4 horas diarias.
+    </p>
+
+    <!-- PARÁMETROS -->
+    <h3>Parámetros operativos</h3>
+    <div class="card">
+      <div class="kpi"><b>Aeronave:</b> Cessna 402</div>
+      <div class="kpi"><b>Base operativa:</b> Venado Tuerto</div>
+      <div class="kpi"><b>Bloque de vuelo:</b> 4 horas diarias</div>
+      <div class="kpi"><b>Velocidad promedio:</b> 270 km/h</div>
+      <div class="kpi"><b>Tarifa:</b> USD 2,75 por kilómetro</div>
+      <div class="kpi"><b>Facturación estimada:</b> ≈ USD 2.970 por día</div>
+    </div>
+
+    <!-- RUTAS -->
+    <h3>Rutas priorizadas</h3>
+    <div class="card">
+      <div class="route"><b>Venado Tuerto ⇄ Bahía Blanca</b><span>Ida y vuelta posible</span></div>
+      <div class="route"><b>Venado Tuerto ⇄ Mar del Plata</b><span>Red privada</span></div>
+      <div class="route"><b>Venado Tuerto ⇄ Corrientes</b><span>Nodo NEA</span></div>
+      <div class="route"><b>Venado Tuerto ⇄ Resistencia</b><span>Activaciones sanitarias</span></div>
+      <div class="route"><b>Venado Tuerto ⇄ Tucumán</b><span>Nodo médico NOA</span></div>
+      <div class="route"><b>Venado Tuerto ⇄ Posadas</b><span>Corredor sanitario</span></div>
+    </div>
+
+    <!-- PÚBLICO OBJETIVO -->
+    <h3>Público objetivo</h3>
+    <div class="card">
+      <ul>
+        <li><b>Obras sociales y empresas de medicina prepaga</b>: derivaciones interhospitalarias y convenios marco.</li>
+        <li><b>Ministerios de Salud</b>: cobertura aeromédica regional y contratos por disponibilidad.</li>
+        <li><b>Clínicas y sanatorios</b>: traslados críticos y programados.</li>
+        <li><b>Empresas con riesgo operativo</b> (energía, agroindustria, industria pesada).</li>
+        <li><b>Empresarios y ejecutivos</b>: viajes de gestión y optimización de agendas.</li>
+        <li><b>Productores agropecuarios y gente de campo</b>: trámites, reuniones y urgencias operativas.</li>
+        <li><b>Turismo premium</b>: movilidad aérea a medida y destinos regionales.</li>
+      </ul>
+    </div>
+
+    <!-- NUEVO BLOQUE CLAVE -->
+    <h3>Acceso a contratos industriales de alta exigencia (CESA)</h3>
+    <div class="card">
+      <p>
+        La operación a través de un <b>Certificado de Explotación de Servicios Aéreos (CESA)</b>
+        habilita el acceso a contratos con <b>petroleras, empresas mineras e industrias reguladas</b>,
+        que exigen cumplimiento estricto de normativa aeronáutica, trazabilidad operativa y
+        responsabilidad legal del operador.
+      </p>
+      <ul>
+        <li>Operaciones bajo marco aerocomercial aprobado por ANAC.</li>
+        <li>Cumplimiento integral de seguridad operacional, seguros y gestión de riesgos.</li>
+        <li>Requisito excluyente para trabajar con petroleras, mineras y grandes industrias.</li>
+        <li>Imposibilidad de acceso a este tipo de contratos desde esquemas informales o privados.</li>
+      </ul>
+      <p style="margin-top:12px;">
+        <b>Conclusión estratégica:</b> solo operando dentro de un CESA es posible participar de
+        licitaciones, contratos marco y acuerdos de largo plazo con este nivel de clientes.
+      </p>
+    </div>
+
+    <!-- CAPTACIÓN -->
+    <h3>Métodos de captación y comercialización</h3>
+    <div class="card">
+      <ul>
+        <li>Comercialización directa B2B y B2G.</li>
+        <li>Convenios marco con empresas, cámaras sectoriales y organismos públicos.</li>
+        <li>Presentación ejecutiva del plan de vuelo como producto aerocomercial.</li>
+        <li>Alianzas con operadores terrestres y prestadores industriales.</li>
+        <li>Posicionamiento institucional digital orientado a decisores.</li>
+      </ul>
+    </div>
+
+    <!-- VALOR ALFA SKY -->
+    <h3>Aporte de Alfa Sky como operador aerocomercial</h3>
+    <div class="card">
+      <p>
+        Alfa Sky actúa como operador e integrador del sistema, aportando el marco legal,
+        comercial y operativo necesario para transformar la aeronave en un activo productivo
+        de nivel institucional.
+      </p>
+      <ul>
+        <li><b>CESA vigente</b>, habilitando operación legal y contratación industrial.</li>
+        <li>Estructura operativa para vuelos sanitarios, ejecutivos e industriales.</li>
+        <li>Back office aerocomercial: contratos, facturación y reporting.</li>
+        <li>Planificación de utilización (4 horas diarias) y control de cumplimiento.</li>
+        <li>Acceso a mercado corporativo e industrial sin gestión comercial del propietario.</li>
+      </ul>
+      <p style="margin-top:12px;">
+        <b>Modelo:</b> el propietario aporta la aeronave; Alfa Sky aporta la licencia,
+        el mercado y la estructura aerocomercial.
+      </p>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p><b>ALFA SKY</b><br/>Exclusivity Beyond All</p>
+      <p>
+        info@alfa-sky.com<br/>
+        Roma 450, Vicente López
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
 
